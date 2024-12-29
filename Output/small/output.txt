@@ -1,0 +1,567 @@
+CP.py
+Input01: output:
+7
+2 10 76
+3 4 55
+5 9 55
+6 12 56
+8 5 30
+9 2 34
+10 7 40
+Total tasks completed: 7
+Total completion time: 106
+Total cost: 513
+Total time elapsed: 0.15421210000000002 ms
+Input02 :
+7
+7
+1 2 90
+2 11 66
+3 7 90
+4 4 81
+5 6 108
+6 3 123
+7 1 90
+Total tasks completed: 7
+Total completion time: 149
+Total cost: 446
+Total time elapsed: 0.056617900000000006 ms
+Input03
+9
+3 1 146
+4 6 86
+5 6 63
+6 17 82
+8 9 41
+9 11 62
+10 12 103
+11 2 83
+12 5 75
+Total tasks completed: 9
+Total completion time: 160
+Total cost: 497
+Total time elapsed: 0.3249826 ms
+Input04
+6
+6
+1 3 30
+4 11 69
+8 12 35
+12 14 68
+14 9 99
+15 20 114
+Total tasks completed: 6
+Total completion time: 151
+Total cost: 326
+Total time elapsed: 0.7664432000000001 ms
+Input05
+10
+1 9 53
+6 2 116
+8 2 63
+9 3 64
+10 6 62
+12 6 37
+13 7 87
+14 3 29
+16 3 105
+17 9 99
+Total tasks completed: 10
+Total completion time: 144
+Total cost: 576
+Total time elapsed: 0.3501291 ms
+Input06
+19
+19
+1 9 208
+2 22 78
+3 30 242
+4 1 201
+5 4 122
+6 21 244
+7 13 201
+8 23 184
+9 10 224
+10 21 85
+11 17 101
+12 22 109
+13 7 165
+14 12 200
+15 20 225
+16 3 244
+17 2 69
+19 1 164
+20 22 166
+Total tasks completed: 19
+Total completion time: 306
+Total cost: 763
+Total time elapsed: 1.7300543000000002 ms
+Input07
+12
+12
+1 8 151
+3 24 93
+4 18 106
+5 41 90
+6 2 181
+8 43 97
+9 38 82
+13 14 163
+14 32 90
+15 41 168
+16 14 91
+20 28 164
+Total tasks completed: 12
+Total completion time: 223
+Total cost: 527
+Total time elapsed: 2.5153753 ms
+Put08
+13
+2 20 129
+6 19 103
+7 12 120
+8 2 83
+11 26 97
+12 4 161
+13 15 132
+14 2 161
+18 17 99
+20 3 133
+21 18 160
+22 3 165
+24 5 162
+Total tasks completed: 13
+Total completion time: 236
+Total cost: 781
+Total time elapsed: 3.5587032 ms
+Input09
+11
+2 23 74
+8 15 29
+10 22 66
+11 32 40
+12 3 64
+13 37 140
+15 23 143
+18 29 72
+21 37 59
+22 18 126
+28 36 91
+Total tasks completed: 11
+Total completion time: 189
+Total cost: 615
+Total time elapsed: 4.768841500000001 ms
+Input10
+13
+1 27 136
+2 34 32
+4 24 75
+5 42 64
+6 32 87
+7 25 67
+10 33 140
+11 4 110
+12 39 64
+15 10 78
+17 31 96
+20 43 64
+22 31 121
+Total tasks completed: 13
+Total completion time: 180
+Total cost: 680
+Total time elapsed: 5.8482472 ms
+IPL
+Input01
+7
+2 10 76
+3 4 65
+5 9 55
+6 12 36
+8 5 30
+9 2 60
+10 7 40
+Total tasks completed: 7.0
+Total completion time: 106.0
+Total cost: 513.0
+Total time elapsed: 74 ms
+Input02
+7
+1 2 115
+2 11 66
+3 7 90
+4 4 106
+5 6 108
+6 3 123
+7 1 90
+Total tasks completed: 7.0
+Total completion time: 149.0
+Total cost: 446.0
+Total time elapsed: 76 ms
+Input03
+9
+3 1 146
+4 6 51
+5 6 28
+6 17 82
+8 9 41
+9 11 33
+10 12 103
+11 2 25
+12 5 39
+Total tasks completed: 9.0
+Total completion time: 160.0
+Total cost: 497.0
+Total time elapsed: 181 ms
+
+Input04
+6
+1 3 103
+4 11 69
+8 12 129
+12 14 68
+14 9 131
+15 20 114
+Total tasks completed: 6.0
+Total completion time: 151.0
+Total cost: 326.0
+Total time elapsed: 253 ms
+Input05
+10
+1 9 68
+6 2 116
+8 2 63
+9 3 64
+10 6 66
+12 6 34
+13 7 67
+14 3 29
+16 3 106
+17 9 102
+19
+1 9 266
+2 22 94
+3 30 242
+4 1 186
+5 4 122
+6 21 194
+7 13 122
+8 23 184
+9 10 283
+10 21 114
+11 17 38
+12 22 125
+13 7 195
+14 12 252
+15 20 283
+16 3 242
+17 2 69
+19 1 135
+20 22 182
+Total tasks completed: 19.0
+Total completion time: 306.0
+Total cost: 763.0
+Total time elapsed: 938 ms
+Input06
+12
+1 8 172
+3 24 92
+4 18 44
+5 41 93
+6 2 191
+8 43 91
+9 38 84
+13 14 159
+14 32 90
+15 41 168
+16 14 88
+20 28 160
+Total tasks completed: 12.0
+Total completion time: 223.0
+Total cost: 527.0
+Total time elapsed: 701 ms
+Input07
+12
+1 8 163
+3 24 99
+4 18 140
+5 41 88
+6 2 161
+8 43 99
+9 38 90
+13 14 173
+14 32 90
+15 41 168
+16 14 88
+20 28 166
+Total tasks completed: 12.0
+Total completion time: 223.0
+Total cost: 527.0
+Total time elapsed: 433 ms
+Input08
+13
+2 20 115
+6 19 131
+7 12 45
+8 2 83
+11 26 78
+12 4 161
+13 15 116
+14 2 161
+18 17 46
+20 3 102
+21 18 53
+22 3 143
+24 5 193
+Total tasks completed: 13.0
+Total completion time: 236.0
+Total cost: 781.0
+Total time elapsed: 7158 ms
+Input09
+11
+2 23 134
+8 15 91
+10 22 87
+11 32 111
+12 3 64
+13 37 140
+15 23 150
+18 29 72
+21 37 91
+22 18 91
+28 36 91
+Total tasks completed: 11.0
+Total completion time: 189.0
+Total cost: 615.0
+Total time elapsed: 788 ms
+Input10
+13
+1 27 136
+2 34 143
+4 24 91
+5 42 39
+6 32 98
+7 25 67
+10 33 106
+11 4 110
+12 39 30
+15 10 146
+17 31 91
+20 43 46
+22 31 140
+Total tasks completed: 13.0
+Total completion time: 180.0
+Total cost: 680.0
+Total time elapsed: 3956 ms
+Genetic
+Input01
+10
+2 10 76
+3 3 15
+5 9 55
+6 12 36
+8 5 30
+9 2 16
+10 7 40
+Input02
+Input03
+12
+3 1 146
+4 6 28
+5 6 54
+6 17 82
+8 9 41
+9 11 27
+10 12 103
+11 2 25
+12 5 39
+Input04
+Input05
+17
+1 9 53
+6 2 116
+8 2 63
+9 3 64
+10 6 57
+12 6 32
+13 8 36
+14 3 29
+16 10 87
+17 9 87
+Input06
+Input07
+Input08
+25
+2 20 51
+6 19 34
+7 12 42
+8 2 83
+11 26 78
+12 4 161
+13 15 71
+14 2 161
+18 17 46
+20 3 55
+21 37 44
+22 3 143
+24 5 143
+Input09
+25
+2 20 51
+6 19 34
+7 12 42
+8 2 83
+11 26 78
+12 4 161
+13 15 71
+14 2 161
+18 17 46
+20 3 55
+21 37 44
+22 3 143
+24 5 143
+Input10
+28
+1 27 136
+2 34 32
+4 24 61
+5 42 39
+6 32 83
+7 25 67
+10 33 106
+11 4 110
+12 39 30
+15 38 52
+17 15 43
+20 37 31
+22 31 91
+
+Greedy
+Input01
+7
+2 10 84
+3 3 15
+5 9 55
+6 5 30
+8 1 38
+9 2 16
+10 7 40
+Input02
+6
+1 2 90
+2 11 66
+3 7 90
+4 1 49
+6 3 125
+7 1 92
+Input03
+9
+3 1 146
+4 11 27
+5 6 28
+6 17 82
+8 9 41
+9 11 53
+10 12 103
+11 2 25
+12 5 39
+Input04
+6
+1 3 30
+4 11 69
+8 12 35
+12 14 68
+14 1 41
+15 20 114
+Input05
+10
+1 9 53
+6 2 63
+8 9 87
+9 3 29
+10 6 32
+12 6 69
+13 8 36
+14 3 70
+16 3 105
+17 9 140
+Input06
+18
+1 9 146
+2 22 78
+3 30 242
+4 1 104
+5 4 122
+6 21 184
+7 13 82
+8 23 184
+9 10 146
+10 3 29
+11 17 38
+12 22 109
+13 7 109
+14 12 79
+15 20 163
+17 2 69
+19 1 37
+20 9 45
+Input07
+12
+1 20 28
+3 27 32
+4 18 44
+5 41 51
+6 35 34
+8 43 73
+9 38 82
+13 41 138
+14 32 90
+15 41 187
+16 14 88
+20 28 159
+Input08
+13
+2 20 51
+6 19 34
+7 12 42
+8 2 83
+11 26 78
+12 4 161
+13 15 71
+14 2 161
+18 17 46
+20 3 55
+21 37 44
+22 3 143
+24 5 143
+Input09
+11
+2 13 56
+8 15 29
+10 22 25
+11 32 40
+12 3 64
+13 37 140
+15 23 88
+18 29 72
+21 37 59
+22 18 71
+28 36 91
+Input10
+13
+1 27 136
+2 34 32
+4 24 61
+5 37 31
+6 32 83
+7 25 67
+10 33 106
+11 4 110
+12 39 30
+15 38 52
+17 15 43
+20 43 46
+22 31 91
+HILLCLIMBING
+
+
+
