@@ -1,8 +1,10 @@
 import random
 
 def generate_test_case():
-    N = 900
-    Q = random.randint(200,250)  # Q sẽ phụ thuộc vào N  
+    N = int(input())
+    a = int(input())
+    b = int(input())
+    Q = random.randint(a,b)  # Q sẽ phụ thuộc vào N  
     
     pred = []
     for _ in range(Q):
@@ -12,15 +14,15 @@ def generate_test_case():
             j = random.randint(1, N)
         pred.append((i, j))
     
-    # Sinh thời gian cho mỗi công việc
-    d = [random.randint(10, 100) for _ in range(N)] 
+    d = [random.randint(10, 100) for _ in range(N)]  # Sinh thời gian cho mỗi công việc
     
-    # Sinh số lượng đội ngũ và thời gian có sẵn của mỗi đội
-    M = 400
-    s = [random.randint(25, 200) for _ in range(M)]  # Thời gian bắt đầu của mỗi nhóm
+    M = int(input())
+    s = [random.randint(25, 80) for _ in range(M)]  # Thời gian bắt đầu của mỗi nhóm
     
     # Sinh số lượng chi phí (K)
-    K = random.randint(300,400)  
+    k1 = int(input())
+    k2 = int(input())
+    K = random.randint(k1,k2)  
     c = [[0 for _ in range(M + 1)] for _ in range(N + 1)]  # Khởi tạo ma trận chi phí
     
     # Đảm bảo đủ K chi phí
@@ -28,7 +30,7 @@ def generate_test_case():
     while cost_count < K:
         i = random.randint(1, N)
         j = random.randint(1, M)
-        cost = random.randint(20, 100)  # Chi phí ngẫu nhiên
+        cost = random.randint(20, 150)  # Chi phí ngẫu nhiên
         if c[i][j] == 0:  # Chỉ thêm chi phí nếu chưa có
             c[i][j] = cost
             cost_count += 1
