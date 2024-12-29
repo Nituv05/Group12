@@ -102,4 +102,7 @@ if status == cp_model.OPTIMAL or status == cp_model.FEASIBLE:
     print(len(schedule))
     for i in schedule:
         print(i, team[i], solver.Value(t[i]))
-
+print("Total tasks completed:", solver.Value(num_tasks))
+print("Total completion time:", solver.Value(completion_time))
+print("Total cost:", solver.Value(total_cost))
+print(f"Total time elapsed: {solver.WallTime()} ms")
